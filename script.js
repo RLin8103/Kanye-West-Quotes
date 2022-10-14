@@ -11,9 +11,11 @@ document.getElementById("generateQuote").addEventListener("click", function(even
             let result = "<div id='quoteContent'>";
             result += "<blockquote>";
             result += "<p id='quotetext'>";
+            result += "<q>";
             result += json.quote;
+            result += "</q>";
             result += "</p>";
-            result += "<cite>&#8212;Kanye West</cite>";
+            result += "<cite>&#8212; Kanye West</cite>";
             result += "</blockquote>";
             result += "</div>";
     
